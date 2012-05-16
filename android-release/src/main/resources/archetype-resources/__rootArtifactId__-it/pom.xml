@@ -37,6 +37,7 @@
       <artifactId>${rootArtifactId}</artifactId>
       <type>apk</type>
       <version>${version}</version>
+      <scope>provided</scope>
       <classifier>${zipaligned-classifier}</classifier> <!--  classifier set according to the ran profile -->
     </dependency>
     <dependency>
@@ -44,6 +45,7 @@
       <artifactId>${rootArtifactId}</artifactId>
       <type>jar</type>
       <version>${version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
        <groupId>junit</groupId>
